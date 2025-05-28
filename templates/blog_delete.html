@@ -1,0 +1,6 @@
+Seguro que lo quieres eliminar? 
+<form method="POST">
+    {% csrf_token %}
+    {{form}}
+    <button type="submit">Eliminar</button>
+</form>
